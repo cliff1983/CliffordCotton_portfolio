@@ -1,0 +1,185 @@
+body{
+  
+}
+.bg {
+    background: url(../img/backgroundblur.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+}
+#tecbrand img {
+    margin-top: 35% !important;
+}
+
+form {
+    max-width: 420px;
+    margin: 0;
+    margin-bottom: 5px;
+    max-height: 20% !important;
+}
+
+.feedback-input {
+    color: #DA410E;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 5px;
+    line-height: 18px;
+    background-color: #fff;
+    border: 2px solid #DA410E;
+    transition: all 0.3s;
+    padding: 8px;
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus {
+    border: 2px solid #DA410E;
+}
+
+textarea {
+    height: 150px;
+    line-height: 100%;
+    resize: vertical;
+}
+
+[type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: #DA410E;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: #212529;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+
+[type="submit"]:hover {
+    background: #DA410E;
+}
+
+hr {
+    background: #DA410E;
+}
+
+ul li a {
+    color: grey !important;
+    transition: all 1s;
+}
+
+.h3 {
+    color: black;
+}
+
+#boxsh {
+    margin-top: 0;
+    background: #212529;
+    box-shadow: 0px 0px 10px 10px #DA410E;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#contain {
+    margin-top: 0px;
+
+}
+
+.masmarg {
+    color: #fff;
+    
+}
+
+.bg2 {
+    background: url("../img/bacd2.png");
+}
+
+#myhr {
+    background-color: grey;
+}
+
+#quick {
+    color: #DA410E;
+}
+
+.wrapper svg {
+    width: 50%;
+}
+
+.wrapper p {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px;
+    font-weight: 800;
+}
+.bg4{
+    background: url("../img/bacd.png");
+}
+#abouttecjunkis{
+
+}
+#phone:hover{
+    color: gray;
+}
+#logo{
+
+}
+#logo img{
+    position:absolute;
+    bottom: 0;
+    right: 1;
+}
+#phone{
+
+}
+#socmed{
+
+    font-size: 30px;
+}
+.fa-mobile{
+     font-size: 50px; 
+}
+.fa-twitter{
+
+
+}
+.fa-facebook-square{
+
+  
+}
+.fa-linkedin-square{
+
+
+}
+hr.style2 {
+	border-top: 3px double  #212529;
+}
+#footer{ 
+}
+#fala{
+    font-size: 30px;
+
+}
+#yala{
+
+}
+#socmed a i{
+    display: inline-block;
+    color: #212529;
+}
+#socmed a i:hover{
+    color: gray;
+}
+
+

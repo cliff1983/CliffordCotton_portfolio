@@ -1,0 +1,201 @@
+nav{
+    display: none;
+}
+nav ul{
+    display: none;
+}
+.bg3{
+    background:url("../img/Layer 2.png");
+    width: 100% !important;
+}
+.bg3 h3{    
+    font-weight: 800;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.contain-all {
+    width: 80%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    margin:auto;
+    padding: 0;
+    overflow: hidden;
+    perspective: 100%;
+    box-shadow: 0 20px 40px #000;
+
+}
+
+.contain-img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    transform: translateX(-100%) rotateX(360deg);
+    transition: all 1s;
+    opacity: 0;
+    
+}
+
+.contain-img:target {
+    transform: translateX(0) rotateX(0deg);
+    opacity: 1;
+}
+
+.contain-img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#img1 {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.fa-arrow-left {
+    color: #DA410E;
+    position: absolute;
+    left: 0;
+    top: 250px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.fa-arrow-right {
+    color: #DA410E;
+    position: absolute;
+    right: 0;
+    top: 250px;
+    font-size: 40px;
+    text-decoration: none;
+}
+.content-details{
+    position: relative;
+    top: -350px;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    text-align: center;
+    font-family: arial;
+    border-radius: 5px;
+}
+.content-details p{
+    margin-top: 10px;
+    
+}
+.content-details input[type="button"]{
+    color: #fff;
+    background: rgba(218, 65, 14, 0.6);
+    padding: 8px 40px;
+    font-size:18px;
+    margin-top: 10px;
+    outline: 0px;
+    border: 0px;
+    border-radius: 5px;
+    transition: all 300ms;
+}
+.content-details input[type="button"]:hover{
+    background: rgba(0,0,0,.2);
+    cursor: pointer;
+    transition: all 300ms;
+}
+ul li a:hover{
+    color: #DA410E !important;
+   
+}
+
+        /* HAMBURGER BAR */
+.fa-bars {
+    color:#DA410E;
+    font-size: 60px;
+}
+#first_one{
+  
+}
+.drop{
+    font-size: 30px;
+}
+ul li a{
+    color: red;
+}
+ul li{
+    list-style: none;
+}
+nav li {
+    border-bottom: 1px solid #DA410E;
+    text-decoration: none;
+}
+
+.active {
+    text-align: center;
+}
+
+.active li {
+    display: block;
+}
+
+.active li a {
+    color: red;
+}
+
+@media screen and (max-width: 1020px) {
+    .bg2{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    body{
+        width: 100vw !important;
+    }
+    #logo img{
+        right: 8%;
+        bottom: 8%;
+    }
+    #services{
+         font-size: 50px;
+    margin: auto;
+    padding: auto; 
+    }
+    #servscript p{
+    font-size: 50px;
+    margin: auto;
+    padding: auto;
+}
+    #boxer ul{
+        display: none;
+    }
+    #boxer hr{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+    .active{
+        display: block;
+    }
+    .fa-arrow-left {
+    font-size: 80px;
+
+}
+
+.fa-arrow-right {
+    font-size: 80px;
+}
+
+
+}
+.my-color{
+    background: #DA410E;
+    transition: all 300ms;
+  
+}
+/* #tranback{
+    min-height: 450px;
+    position: absolute;
+    
+}
+#tanback::before{
+   content: "\200B";
+} */
